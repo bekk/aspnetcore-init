@@ -11,6 +11,7 @@ namespace ConsoleApplication
     {
         public static void Main(string[] args)
         {
+            Console.OutputEncoding = System.Text.Encoding.Unicode;
             Console.WriteLine(@"     _    ____  ____  _   _ _____ _____ ____");
             Console.WriteLine(@"    / \  / ___||  _ \| \ | | ____|_   _/ ___|___  _ __ ___");
             Console.WriteLine(@"   / _ \ \___ \| |_) |  \| |  _|   | || |   / _ \| '__/ _ \");
